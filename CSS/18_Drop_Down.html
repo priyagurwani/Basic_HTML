@@ -1,0 +1,48 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<style>
+    .dropbtn
+    {
+        background-color: green;
+        padding: 20px;
+        font-size: 15px;
+        color: white;
+    }
+    .content a{
+     color: yellowgreen;
+     text-decoration: none;
+     display: block;
+     padding: 15px 16px;
+    }
+    .content{
+        background-color: teal;
+        width: 110px;
+        display: none;
+        position: absolute;
+        box-shadow: 10px 10px 7px grey;
+    }
+    .dropdown
+    {
+        position: relative;
+    }
+    .dropdown:hover .content
+    {
+        display: block;
+    }
+</style>
+</head>
+<body>
+    <div class="dropdown">
+
+        <button class="dropbtn">Dropdown</button>
+        <div class="content">
+            <a href="#">Web</a>
+            <a href="#">software</a>
+            <a href="#">ios</a>
+         
+
+        </div>
+    </div>
+</body>
