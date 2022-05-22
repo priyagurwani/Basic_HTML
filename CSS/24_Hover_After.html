@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        h1{
+            text-align: center;
+            background-color: burlywood;
+            text-transform: capitalize;
+        }
+        .nav{
+            display: flex;
+            align-items: center;
+            background-color: antiquewhite;
+        }
+        .nav-links{
+            float: right;
+        }
+        .nav-links ul li{
+            flex: 1%;
+            padding: 12px 4px;
+            list-style: none;
+            display: inline-block;
+            text-transform: uppercase;
+            margin-right: 20px;
+        }
+        .nav-links ul li a{
+            text-decoration: none;
+            color: crimson;
+        }
+        .nav-links ul li::after{
+            content: '';
+            width: 0%;
+            height: 3px;
+            background: cornflowerblue;
+            display: block;
+            transition: 0.5s;
+        }
+        .nav-links ul li:hover::after{
+            width: 100%;
+        }
+
+    </style>
+
+</head>
+<body>
+    <h1>
+        We are learning hover with Links
+    </h1>
+    <nav>
+        <div class="nav-links">
+            <ul>
+                <li><a href="">Home</a></li>
+                <li><a href="">About</a></li>
+                <li><a href="">Login</a></li>
+            </ul>
+
+        </div>
+    </nav>
+    
+</body>
+</html>
