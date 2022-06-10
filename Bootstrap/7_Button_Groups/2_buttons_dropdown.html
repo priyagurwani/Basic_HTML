@@ -1,0 +1,54 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Bootstrap Example</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</head>
+<style>
+    h2{
+        background-color: burlywood;
+        margin-top: 20px;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+</style>
+<body>
+    <div class="container">
+        <h2>We'll learn Dropdown Button  in Bootstrap </h2>
+        <br>
+        <div class="btn-group">
+            <button type="button" class="btn btn-primary">Contact</button>
+            <button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown">
+                <span class="caret"></span>
+            </button>
+            <ul class="dropdown-menu" role="menu">
+                <li><a href="#">Login</a></li>
+                <li><a href="#">Register</a></li>
+            </ul>
+        </div>
+        <h2>We'll learn dropdown with other buttons</h2>
+        <br>
+        <div class="btn-group">
+            <button type="button" class="btn btn-warning">Home</button>
+            <button type="button" class="btn btn-danger">About</button>
+            <div class="btn-group">
+                <button type="button" class="btn btn-success">Contact</button>
+                <button type="button" class="btn btn-success dropdown-toggle" data-toggle="dropdown">
+                    <span class="caret"></span>
+                </button>
+                <ul class="dropdown-menu" role="menu">
+                    <li><a href="#" class="btn btn-primary">Login</a></li>
+                    <li><a href="#" class="btn btn-warning">Register</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    
+    
+</body>
+</html>
